@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Operación, control y respuesta en servicios de seguridad'
