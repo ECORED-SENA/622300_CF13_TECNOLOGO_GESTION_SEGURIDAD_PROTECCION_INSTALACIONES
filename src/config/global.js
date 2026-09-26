@@ -181,13 +181,129 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alarma',
+      significado:
+        'señal generada por un sistema, dispositivo o mecanismo de seguridad que advierte sobre una condición anómala, un posible riesgo o un evento que requiere comprobación y respuesta.',
+    },
+    {
+      termino: 'Consigna',
+      significado:
+        'instrucción operativa que orienta la actuación del personal de seguridad y establece responsabilidades, procedimientos, límites de actuación y condiciones específicas para cada puesto o servicio.',
+    },
+    {
+      termino: 'Control de acceso',
+      significado:
+        'conjunto de procedimientos y medios destinados a regular, comprobar y autorizar el ingreso y la salida de personas, vehículos, materiales o equipos en una instalación.',
+    },
+    {
+      termino: 'Emergencia',
+      significado:
+        'situación que altera significativamente el funcionamiento normal de una instalación y puede comprometer la seguridad de las personas, los bienes, la infraestructura o la continuidad operativa.',
+    },
+    {
+      termino: 'Evidencia operativa',
+      significado:
+        'registro físico o digital asociado con un evento, como fotografías, videos, audios, reportes, minutas o datos generados por sistemas tecnológicos, utilizado para respaldar las actuaciones realizadas.',
+    },
+    {
+      termino: 'Gestión documental',
+      significado:
+        'conjunto de actividades destinadas a organizar, proteger, conservar, consultar y controlar la información generada durante la prestación del servicio de seguridad.',
+    },
+    {
+      termino: 'Minuta',
+      significado:
+        'registro cronológico en el que se consignan las novedades, actividades, controles, incidentes y demás hechos relevantes ocurridos durante un turno de servicio.',
+    },
+    {
+      termino: 'Monitoreo',
+      significado:
+        'seguimiento continuo de señales, alarmas, cámaras, sensores y demás sistemas tecnológicos con el propósito de identificar novedades y apoyar la gestión operativa.',
+    },
+    {
+      termino: 'Protocolo',
+      significado:
+        'conjunto de instrucciones previamente definidas que establece la forma correcta de actuar ante una situación específica, garantizando uniformidad y trazabilidad en la respuesta.',
+    },
+    {
+      termino: 'Reporte',
+      significado:
+        'registro verbal, escrito o digital mediante el cual se documentan hechos, decisiones, acciones y resultados relacionados con la operación de seguridad.',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'posibilidad de que una amenaza afecte personas, bienes, información, instalaciones o procesos, considerando las condiciones de vulnerabilidad existentes.',
+    },
+    {
+      termino: 'Semiótica',
+      significado:
+        'disciplina que estudia los signos, códigos y mensajes utilizados para transmitir e interpretar información dentro de los procesos de comunicación.',
+    },
+    {
+      termino: 'Sistema de Gestión Central (SGC)',
+      significado:
+        'plataforma que integra reportes, alarmas, minutas, comunicaciones, evidencias y registros operativos para facilitar su trazabilidad, almacenamiento y consulta.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'capacidad de reconstruir la secuencia de un evento mediante registros que permiten establecer qué ocurrió, cuándo sucedió, quién intervino y qué acciones se ejecutaron.',
+    },
+    {
+      termino: 'Vulnerabilidad',
+      significado:
+        'condición o debilidad que puede facilitar la materialización de una amenaza o reducir la capacidad de protección y respuesta del sistema de seguridad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'ASIS International. (2005). Estándares y lineamientos para la gestión del riesgo en seguridad.',
+      link: '',
+    },
+    {
+      referencia:
+        'ASIS International. (2011a). Manual de gestión de crisis: Lineamientos para la preparación, respuesta y continuidad operativa ante emergencias y crisis.',
+      link: '',
+    },
+    {
+      referencia:
+        'ASIS International. (2011b). Manual de operadores de seguridad: Directrices operativas para centrales de monitoreo, verificación y respuesta.',
+      link: '',
+    },
+    {
+      referencia:
+        'ASIS International. (2011c). Manual POA investigación: Protección de activos, lineamientos para informes e investigación operativa.',
+      link: '',
+    },
+    {
+      referencia:
+        'ASIS International. (2011d). Manual seguridad de la información: Procedimientos para manejo, clasificación y protección de datos en operaciones de seguridad.',
+      link: '',
+    },
+    {
+      referencia:
+        'ASIS International. (2012a). Manual de gestión en seguridad.',
+      link: '',
+    },
+    {
+      referencia: 'ASIS International. (2012b). Manual de seguridad física.',
+      link: '',
+    },
+    {
+      referencia:
+        'Bermúdez. (2012). Manual de procedimiento para el personal de vigilantes de seguridad privada.',
+      link: '',
+    },
+    {
+      referencia:
+        'Delgado J. & Asociados (DEAS). (s. f.). Manual de la central de monitoreo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1994). Decreto 356 de 1994, por el cual se expide el Estatuto de Vigilancia y Seguridad Privada.',
       link: '',
     },
   ],
@@ -197,13 +313,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
         },
       ],
     },
@@ -211,9 +323,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ana Roció Rosero Cortes',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Leonardo Camacho Acevedo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Alba Mireya Orjuela Toro',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Cristancho Cubillos',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Angelica Gómez Morales',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paula Marcela Vidal Quintero',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -221,20 +364,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Cielo Damaris Angulo Rodríguez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -244,13 +417,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

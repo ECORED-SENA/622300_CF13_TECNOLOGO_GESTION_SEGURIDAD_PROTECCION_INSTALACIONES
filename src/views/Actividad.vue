@@ -19,71 +19,73 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Operación, control y respuesta en servicios de seguridad privada.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
-      barajarPreguntas: false,
+        '<b>Objetivo:</b> identificar los conceptos clave relacionados con la comunicación, gestión documental, recursos, procedimientos y respuesta operativa en los servicios de seguridad privada.',
+      barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la función de la semiótica en los servicios de seguridad privada?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Interpretar signos para orientar respuestas operativas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Organizar documentos para facilitar procesos administrativos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Supervisar recursos para controlar actividades operativas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Programar turnos para distribuir responsabilidades laborales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Qué elementos debe contener un mensaje operativo correctamente estructurado?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Emisor, receptor, canal y equipo utilizado.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Hecho, lugar, momento y nivel de prioridad.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Fecha, firma, archivo y tiempo establecido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Persona, equipo, turno y puesto asignado.',
               esCorrecta: false,
             },
           ],
@@ -92,28 +94,32 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cuál es la finalidad de utilizar códigos estandarizados en seguridad privada?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Extender los mensajes durante las comunicaciones operativas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Sustituir los procedimientos establecidos para cada evento.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Reducir ambigüedades y acelerar la respuesta operativa.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Eliminar los registros escritos de las novedades diarias.',
               esCorrecta: false,
             },
           ],
@@ -123,29 +129,29 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuáles son las principales modalidades de comunicación utilizadas en seguridad privada?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Radial, telefónica y tecnológica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Directa, indirecta y preventiva.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Interna, externa y administrativa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Oral, escrita y mediante señales.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -153,28 +159,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué característica debe tener la comunicación oral durante una operación?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Ser clara, técnica, breve y verificable.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Ser extensa, informal, flexible y espontánea.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ser subjetiva, personal, detallada y coloquial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Ser reservada, improvisada, variable y opcional.',
               esCorrecta: false,
             },
           ],
@@ -184,28 +191,31 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué permite la confirmación en espejo durante una comunicación operativa?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Evitar el registro escrito de las instrucciones recibidas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Verificar que la instrucción fue comprendida correctamente.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Eliminar la identificación del emisor del mensaje.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Sustituir los protocolos establecidos para cada incidente.',
               esCorrecta: false,
             },
           ],
@@ -215,28 +225,31 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cómo debe elaborarse un registro en la minuta de vigilancia?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Con opiniones personales sobre los hechos ocurridos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Con abreviaturas creadas durante cada situación presentada.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Con objetividad, precisión y orden cronológico verificable.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Con información aproximada registrada al finalizar turno.',
               esCorrecta: false,
             },
           ],
@@ -246,29 +259,29 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Cuál es el primer paso recomendado para la gestión de una señal?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Clasificar inmediatamente la señal como falsa alarma.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Despachar una unidad antes de verificar el evento.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Archivar la señal sin realizar ninguna comprobación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Detectar o recibir correctamente la señal generada.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -277,28 +290,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuáles son funciones esenciales de la comunicación operativa?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Informar, coordinar y controlar las acciones ejecutadas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Archivar, destruir y reemplazar documentos del servicio.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Contratar, seleccionar y evaluar únicamente al personal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Comprar, instalar y reparar únicamente equipos tecnológicos.',
               esCorrecta: false,
             },
           ],
@@ -308,28 +322,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es la función principal de un reporte en seguridad privada?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Reemplazar los procedimientos internos establecidos previamente.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Documentar hechos, decisiones y resultados de forma verificable.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Eliminar la necesidad de conservar evidencia tecnológica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Registrar opiniones personales relacionadas con cada incidente.',
               esCorrecta: false,
             },
           ],
@@ -339,28 +357,32 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué caracteriza principalmente a un informe inicial de un incidente?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Presenta recomendaciones posteriores al cierre del evento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Describe únicamente los daños generados por el incidente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Notifica el evento y activa la respuesta correspondiente.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Conserva exclusivamente fotografías relacionadas con el hecho.',
               esCorrecta: false,
             },
           ],
@@ -369,30 +391,32 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Qué función cumple el Sistema de Gestión Central (SGC)?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Supervisar únicamente los horarios laborales del personal.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Sustituir completamente los equipos tecnológicos de vigilancia.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Controlar solamente el ingreso físico de los visitantes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Integrar reportes, alarmas, minutas y evidencias operativas.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -401,28 +425,31 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué debe registrarse inicialmente al diligenciar un formato operativo?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'La hora precisa en formato de veinticuatro horas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La recomendación final formulada por el supervisor responsable.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El periodo establecido para destruir la documentación registrada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La opinión del operador acerca de la situación observada.',
               esCorrecta: false,
             },
           ],
@@ -432,28 +459,32 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué criterios debe garantizar la conservación de documentos operativos?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Modificación, divulgación, reemplazo y eliminación documental.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Integridad, autenticidad, disponibilidad y confidencialidad documental.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Publicidad, flexibilidad, accesibilidad y modificación documental.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Reproducción, sustitución, publicación y eliminación documental.',
               esCorrecta: false,
             },
           ],
@@ -463,29 +494,198 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Cuál es el documento central del archivo operativo de un puesto de vigilancia?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El inventario general de los equipos tecnológicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El listado diario de visitantes y proveedores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El libro de minuta o libro de servicio.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El manual comercial entregado a los usuarios.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cómo debe manejarse la información reservada durante el servicio?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Compartirse con terceros cuando exista una solicitud verbal.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Mantenerse visible para facilitar consultas de los visitantes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Fotografiarse para conservar copias personales de respaldo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Protegerse mediante custodia y acceso únicamente autorizado.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Cuál es la finalidad principal de los manuales operativos?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Estandarizar procedimientos, responsabilidades y actuaciones del personal.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Reemplazar completamente la capacitación técnica del personal operativo.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar la necesidad de documentar novedades durante el servicio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Permitir actuaciones improvisadas según decisiones individuales del vigilante.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál de los siguientes corresponde a un recurso tecnológico de seguridad?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un procedimiento escrito para controlar los accesos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Un sistema de cámaras CCTV para monitoreo operativo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un programa de entrenamiento dirigido al personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Una consigna particular establecida para cada puesto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué debe orientar la programación de actividades del servicio de seguridad?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La preferencia personal del vigilante durante su jornada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La disponibilidad exclusiva de documentos administrativos internos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El análisis de riesgos y condiciones operativas identificadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La decisión espontánea realizada durante el cambio de turno.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Cuál es una función principal del supervisor de seguridad?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Ejecutar únicamente las rondas asignadas a los vigilantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Registrar exclusivamente los ingresos realizados por visitantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reparar directamente los equipos tecnológicos del servicio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Verificar procedimientos y coordinar la respuesta operativa.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
