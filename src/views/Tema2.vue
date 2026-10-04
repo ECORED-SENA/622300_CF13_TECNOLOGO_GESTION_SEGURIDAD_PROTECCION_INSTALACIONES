@@ -1310,7 +1310,7 @@
       Separador
       #t_2_9.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.9 Funciones del personal
-      p.mb-5 Los manuales operativos deben definir con claridad las #[b funciones correspondientes a cada cargo], evitando vacíos de responsabilidad o duplicidad de actuaciones. La asignación precisa de funciones permite establecer qué actividades corresponde ejecutar, supervisar, registrar o coordinar durante la operación.
+      p.mb-5 Los manuales operativos deben definir con claridad las #[b funciones correspondientes a cada cargo], evitando vacíos de responsabilidad o duplicidad de actuaciones. La asignación precisa de funciones permite establecer qué actividades corresponden ejecutar, supervisar, registrar o coordinar durante la operación.
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Funciones del operador
@@ -1578,7 +1578,7 @@
             .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
               h4.txt--purpura.mb-4 Ejemplo 3. Supervisión deficiente
               p Si un supervisor no revisa la minuta durante el relevo, el operador entrante puede desconocer la existencia de fallas técnicas, incidentes pendientes o consignas temporales que continúen vigentes.
-              p.mb-0 Esta falta de seguimiento puede afectar la respuesta operativa y generar vacíos de información entre turnos. Por esta razón, la #[b revisión de registros durante los relevos]constituye una actividad fundamental para mantener la continuidad del servicio.
+              p.mb-0 Esta falta de seguimiento puede afectar la respuesta operativa y generar vacíos de información entre turnos. Por esta razón, la #[b revisión de registros durante los relevos] constituye una actividad fundamental para mantener la continuidad del servicio.
       Separador
       #t_2_12.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.12 Metodología empleada para la presentación de los resultados
