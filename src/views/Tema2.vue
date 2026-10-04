@@ -61,7 +61,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Elaboración y manejo de la minuta
       p El #[b libro de minuta o libro de servicio] constituye uno de los documentos más relevantes del archivo operativo por su utilidad probatoria y funcional. En este registro deben consignarse, en orden cronológico, todas las novedades del turno, desde la recepción de consignas hasta los acontecimientos que puedan alterar las condiciones normales del servicio.
-      p.mb-5 La elaboración de la minuta exige #[b objetividad, claridad y rigurosidad]. Las anotaciones deben realizarse inmediatamente después del hecho, sin tachones ni apreciaciones subjetivas, e incorporar únicamente información comprobable, como fecha, hora, lugar, personas involucradas, circunstancias y descripción del evento.
+      p.mb-5 La elaboración de la minuta exige #[b objetividad, claridad y rigor]. Las anotaciones deben realizarse inmediatamente después del hecho, sin tachones ni apreciaciones subjetivas, e incorporar únicamente información comprobable, como fecha, hora, lugar, personas involucradas, circunstancias y descripción del evento.
       .caja-1.color-1(data-aos="zoom-in").mb-5
         .row.align-items-center
           .col-xl-auto
@@ -1132,7 +1132,7 @@
                 .lista-ol--cuadro__vineta
                   span C
                 | 
-                p.mb-0 Ejecutar las rondas conforme con la periodicidad establecida. 
+                p.mb-0 Ejecutar las rondas conforme a la periodicidad establecida. 
               li 
                 .lista-ol--cuadro__vineta
                   span D
@@ -1211,7 +1211,7 @@
         .col-xl-auto(data-aos="fade-left")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t2/img93.png", alt="" style="width: 350px").m-auto
-      p.mb-0 El análisis de estos indicadores facilita la toma de decisiones relacionadas con reasignación de recursos, cambios de turnos, ajustes de recorridos y fortalecimiento de controles, cerrando el ciclo de 3[b planificación, ejecución, seguimiento y mejora continua].
+      p.mb-0 El análisis de estos indicadores facilita la toma de decisiones relacionadas con reasignación de recursos, cambios de turnos, ajustes de recorridos y fortalecimiento de controles, cerrando el ciclo de  planificación, ejecución, seguimiento y mejora continua.
       Separador
       #t_2_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.8 Procedimientos y funciones en el servicio
@@ -1269,7 +1269,7 @@
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Componentes de un procedimiento
-      p.mb-5Cada procedimiento debe contener información suficiente para orientar al personal desde el inicio de la actuación hasta su cierre y registro. Los componentes principales se presentan a continuación:
+      p.mb-5 Cada procedimiento debe contener información suficiente para orientar al personal desde el inicio de la actuación hasta su cierre y registro. Los componentes principales se presentan a continuación:
       .row.align-items-center.mb-5
         .col-xl-4(data-aos="fade-right")
           figure.d-none.d-xl-block
@@ -1306,7 +1306,7 @@
                   img(src='@/assets/curso/temas/t2/img100.svg' style="max-width: 90px").m-auto
               h4.mb-3.estilo-text Documentos asociados
               p.mb-0.text-center Identifica los soportes que deben diligenciarse, como minutas, formatos, registros de sistema o informes operativos.
-      p.mb-0 El personal debe actuar conforme con los procedimientos definidos. La improvisación puede generar incoherencias, pérdida de trazabilidad y riesgos para las personas, las instalaciones y la operación.
+      p.mb-0 El personal debe actuar conforme a los procedimientos definidos. La improvisación puede generar incoherencias, pérdida de trazabilidad y riesgos para las personas, las instalaciones y la operación.
       Separador
       #t_2_9.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.9 Funciones del personal

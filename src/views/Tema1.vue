@@ -461,7 +461,7 @@
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Gestión de grabaciones y evidencia digital
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
-          p La gestión de #[i grabaciones de audio y video] requiere controles específicos debido a su posible valor probatorio. Estos archivos deben conservarse en servidores seguros, con accesos segmentados según las responsabilidades del personal. Asimismo, pueden utilizarse metadatos o códigos hash para mantener controles sobre la integridad de la información y detectar modificaciones no autorizadas.
+          p La gestión de grabaciones de audio y video requiere controles específicos debido a su posible valor probatorio. Estos archivos deben conservarse en servidores seguros, con accesos segmentados según las responsabilidades del personal. Asimismo, pueden utilizarse metadatos o códigos hash para mantener controles sobre la integridad de la información y detectar modificaciones no autorizadas.
           .caja-1(data-aos="zoom-in").mb-3
             .row.align-items-center
               .col-xl-auto
