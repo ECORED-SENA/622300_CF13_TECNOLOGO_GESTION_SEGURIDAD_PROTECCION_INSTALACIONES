@@ -29,7 +29,7 @@
       p.mb-5 A continuación, se presenta un video que permite profundizar en la aplicación de la semiótica en los procesos de seguridad, destacando la importancia de interpretar correctamente códigos, señales, gestos y sistemas de alerta para favorecer una comunicación efectiva y una respuesta oportuna ante diferentes situaciones operativas.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/0kQ1rzhac8A?si=0-dJILVx-nwQiCSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. La semiótica aplicada a la comunicación y los sistemas de seguridad
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.svg')
@@ -432,7 +432,7 @@
       p.mb-5 Como apoyo para ampliar la comprensión de los sistemas empleados en el reporte y la gestión de información, se incluye el siguiente recurso audiovisual:
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/UfdGMqIu8X4?si=G_qVF52nLBL5TYyz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Sistemas para el reporte de información
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.svg')

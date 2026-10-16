@@ -35,7 +35,7 @@
             img(src='@/assets/curso/temas/t2/img3.png', alt='' style="width: 300px").m-auto
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/aAe2IgaxZ3w?si=wlDKR7r8NEW5wI7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Gestión documental y archivo.
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.svg')
@@ -1599,7 +1599,7 @@
       p.mb-5 Como apoyo para ampliar la comprensión de los criterios aplicados en la presentación de resultados, se incluye el siguiente recurso audiovisual:
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/-n6PGWsikUg?si=04TSxWXXRrHHOP5-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Presentación de resultados.
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.svg')
@@ -2021,7 +2021,7 @@
 </template>
 
 <script>
-import audio1 from '@/assets/curso/temas/t2/audios/audio-ej.mp3'
+import audio1 from '@/assets/curso/podcast/programacion.mp3'
 export default {
   name: 'Tema2',
   data: () => ({
